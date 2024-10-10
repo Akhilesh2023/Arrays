@@ -357,3 +357,4 @@ const number1 = numbers.forEach(function (number) {
 
 console.log(doublenumber);
 console.log(number1);
+1;

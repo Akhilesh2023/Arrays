@@ -32,62 +32,62 @@
 // //3-write a javaScript condition to sort three numbers
 // //display an alert box to show the result
 // //sample number 0 -1 4
-// // let num1 = 15;
-// // let num2 = 7;
-// // let num3 = 81;
+// let num1 = 15;
+// let num2 = 7;
+// let num3 = 81;
 
-// // let first, second, third;
-// // if (num1 <= num2 && num1 <= num3) {
-// //   first = num1;
-// //   if (num2 <= num3) {
-// //     second = num2;
-// //     third = num3;
-// //   } else {
-// //     second = num3;
-// //     third = num2;
-// //   }
-// // } else if (num2 <= num3 && num2 <= num1) {
-// //   first = num2;
-// //   if (num1 <= num3) {
-// //     second = num1;
-// //     third = num3;
-// //   } else {
-// //     second = num3;
-// //     third = num1;
-// //   }
-// // } else {
-// //   first = num3;
-// //   if (num2 <= num1) {
-// //     second = num2;
-// //     third = num1;
-// //   } else {
-// //     second = num1;
-// //     third = num2;
-// //   }
-// // }
-// // console.log(first, second, third);
-// // // alert(`${first} ${second} ${third}`);
+// let first, second, third;
+// if (num1 <= num2 && num1 <= num3) {
+//   first = num1;
+//   if (num2 <= num3) {
+//     second = num2;
+//     third = num3;
+//   } else {
+//     second = num3;
+//     third = num2;
+//   }
+// } else if (num2 <= num3 && num2 <= num1) {
+//   first = num2;
+//   if (num1 <= num3) {
+//     second = num1;
+//     third = num3;
+//   } else {
+//     second = num3;
+//     third = num1;
+//   }
+// } else {
+//   first = num3;
+//   if (num2 <= num1) {
+//     second = num2;
+//     third = num1;
+//   } else {
+//     second = num1;
+//     third = num2;
+//   }
+// }
+// console.log(first, second, third);
+// // alert(`${first} ${second} ${third}`);
 
 // // 4. Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the results.
 // // Sample numbers : -5, -2, -6, 0, -1
 // // Output : 0
-// let num1 = 258;
-// let num2 = 15;
-// let num3 = 55;
-// let num4 = 105;
-// let num5 = 25;
+let num1 = 258;
+let num2 = 15;
+let num3 = 55;
+let num4 = 105;
+let num5 = 25;
 
-// if (num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5) {
-//   alert(`${num1} is the largest number`);
-// } else if (num2 >= num1 && num2 >= num3 && num2 >= num4 && num2 >= num5) {
-//   alert(`${num2} is the largest number`);
-// } else if (num3 >= num1 && num3 >= num2 && num3 >= num4 && num3 >= num5) {
-//   alert(`${num3} is the largest number`);
-// } else if (num4 >= num1 && num4 >= num2 && num4 >= num3 && num4 >= num5) {
-//   alert(`${num4} is the largest number`);
-// } else {
-//   alert(`${num5} is the largest number`);
-// }
+if (num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5) {
+  alert(`${num1} is the largest number`);
+} else if (num2 >= num1 && num2 >= num3 && num2 >= num4 && num2 >= num5) {
+  alert(`${num2} is the largest number`);
+} else if (num3 >= num1 && num3 >= num2 && num3 >= num4 && num3 >= num5) {
+  alert(`${num3} is the largest number`);
+} else if (num4 >= num1 && num4 >= num2 && num4 >= num3 && num4 >= num5) {
+  alert(`${num4} is the largest number`);
+} else {
+  alert(`${num5} is the largest number`);
+}
 
 // // 5. Write a JavaScript for loop that iterates from 0 to 15. For each iteration, it checks if the current number is odd or even, and displays a message on the screen.
 // // Sample Output :
